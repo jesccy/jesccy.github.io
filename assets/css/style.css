@@ -184,6 +184,20 @@ h6 {
   #header.header-top h1 {
     font-size: 26px;
   }
+
+  .projects-portfolio h5,
+  .resume-summary-detail,
+  .about-me .content ul {
+    flex-direction: column;
+  }
+
+  #portfolio .section-title h2::after {
+    display: none;
+  }
+
+  #portfolio .section-title h2 {
+    color: #ed6104;
+  }
 }
 
 .navbar {
